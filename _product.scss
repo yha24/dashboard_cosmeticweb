@@ -1,0 +1,32 @@
+.product-table {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #c8e4b2;
+  }
+  
+  .product-table table {
+    border: 1px solid #d0c9c9;
+  }
+  
+  .product-table th {
+    background-Color:rgb(171 220 133);
+  }
+  
+  .product-table td {
+    padding: 8px;
+  }
+  
+  .product-table .ant-table-tbody > tr > td {
+    border-bottom: none;
+  }
+  
+  .product-table .ant-table-tbody > tr:last-child > td {
+    border-bottom: 1px solid #978f8f;
+  }
+
+  .centered-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
